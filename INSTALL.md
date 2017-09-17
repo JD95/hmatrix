@@ -37,24 +37,11 @@ Via MacPorts:
 
 Similar should be build under other OSes, like Linux and OSX. This recipe is for stack 1.4.0 - tested and working.
 
-1) 
+1) > stack setup
 
-	> stack setup
+2) > stack exec -- pacman -S mingw-w64-openblas mingw-w64-x86_64-glpk mingw-w64-x86_64-gsl --needed
 
-2) Download and unzip somewhere OpenBLAS http://www.openblas.net/
-
-3) In MSYS2 console of Stack, i.e.: C:\Users\{User}\AppData\Local\Programs\stack\x86_64-windows\msys2-{version}\msys2_shell.bat
-
-    > cd /.../OpenBLAS
-    > pacman -Sy
-    > pacman -S make perl gcc-fortran
-    > make clean
-    > make
-    > make install
-
-3) Then in normal Windows console for building hmatrix base lib (fill in user name, versions and check if paths are different on your machine):
-
-    > stack install --flag hmatrix:openblas --extra-include-dirs=C:\Users\{User}\AppData\Local\Programs\stack\x86_64-windows\msys2-20150512\opt\OpenBLAS\include --extra-lib-dirs=C:\Users\{User}\AppData\Local\Programs\stack\x86_64-windows\msys2-20150512\opt\OpenBLAS\bin --extra-lib-dirs=C:\Users\{User}\AppData\Local\Programs\stack\x86_64-windows\msys2-20150512\usr\lib\gcc\x86_64-pc-msys\6.3.0\
+3) > stack install 
 
 ### Cabal-based build
 	 
