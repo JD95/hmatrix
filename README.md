@@ -28,7 +28,7 @@ Contributions, suggestions, and bug reports are welcome!
 [gsl]: http://www.gnu.org/software/gsl/
 
 [tutorial]: http://dis.um.es/profesores/alberto/material/hmatrix.pdf
-[installation]: https://github.com/AlbertoRuiz/hmatrix/blob/master/INSTALL.md
+[installation]: INSTALL.md
 [changes]: https://github.com/albertoruiz/hmatrix/tree/master/packages/base/CHANGELOG
 [examples]: http://dis.um.es/~alberto/hmatrix/hmatrix.html
 
