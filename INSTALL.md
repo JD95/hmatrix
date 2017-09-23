@@ -41,7 +41,7 @@ Similar should be build under other OSes, like Linux and OSX. This recipe is for
 
 2) > stack exec -- pacman -S mingw-w64-openblas mingw-w64-x86_64-glpk mingw-w64-x86_64-gsl --needed
 
-3) > stack install 
+3) > stack install
 
 ### Cabal-based build
 	 

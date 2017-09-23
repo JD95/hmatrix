@@ -120,7 +120,7 @@ library
        extra-libraries: gfortran
 
     if os(windows)
-        extra-libraries:    libopenblas, libgcc_s_seh-1, libgfortran, libquadmath-0
+        extra-libraries:    libopenblas, libgcc_s_seh-1, libgfortran-4, libquadmath-0
 
     if os(linux)
         if flag(openblas)
